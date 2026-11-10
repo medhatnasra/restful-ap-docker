@@ -1,0 +1,9 @@
+services:
+  node-app:
+    build:
+      context: .
+      target: developement
+    volumes:
+      - ./src:/app/src:ro
+    environment:
+      - NODE_ENV=Developement
