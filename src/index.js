@@ -17,5 +17,5 @@ app.listen(PORT, () => {
 });
 
 app.get("/", (req, res) => {
-  res.send("<h1> Hello Medhat API IS WORKING guys xxhey</h1>");
+  res.send("<h1> Api is working ....</h1>");
 });
