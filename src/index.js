@@ -17,5 +17,5 @@ app.listen(PORT, () => {
 });
 
 app.get("/", (req, res) => {
-  res.send("<h1> Api is working ....</h1>");
+  res.send("<h1> Hi Api is working ....</h1>");
 });
